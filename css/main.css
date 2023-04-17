@@ -1,11 +1,18 @@
 .login{font-size: medium;
 text-align: center;}
 body{
-    background:pink url(/images/) center center repeat;
+    background:pink;
 }
 h1{font-size: larger; font-display: auto; text-align: center;}
 
-.navbar-brand{text-align:center; text-decoration: underline;}
+.navbar-brand{text-align:center; text-decoration: underline;
+}
 .paragraph{ text-align: center;
 
 }
+.carousel-item{ object-fit: cover;
+    object-position: center;
+    width: 50vh; 100%
+overflow: hidden;
+}
+.products{display: inline-block;}
