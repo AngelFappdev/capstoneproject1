@@ -1,2 +1,11 @@
 .login{font-size: medium;
 text-align: center;}
+body{
+    background:pink url(/images/) center center repeat;
+}
+h1{font-size: larger; font-display: auto; text-align: center;}
+
+.navbar-brand{text-align:center; text-decoration: underline;}
+.paragraph{ text-align: center;
+
+}
