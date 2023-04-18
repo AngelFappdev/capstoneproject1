@@ -1,3 +1,8 @@
+.card-img-top{max-height:300px;
+    min-height: 300px;
+    object-fit: contain;
+
+}
 .login{font-size: medium;
 text-align: center;}
 body{
@@ -5,14 +10,20 @@ body{
 }
 h1{font-size: larger; font-display: auto; text-align: center;}
 
-.navbar-brand{text-align:center; text-decoration: underline;
+.navbar-brand{ text-decoration: underline;
+    align-items: center; 
 }
 .paragraph{ text-align: center;
+    padding-top: 2em;
+    font-size: large;
+    font-weight: bold;
 
 }
 .carousel-item{ object-fit: cover;
     object-position: center;
     width: 50vh; 100%
+    object-fit: border-color: black;
 overflow: hidden;
 }
 .products{display: inline-block;}
+
