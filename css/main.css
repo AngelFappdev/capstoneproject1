@@ -24,18 +24,15 @@ h1{font-size: larger; font-display: auto; text-align: center;}
     align-content: center;
 
 }
-
-.paragraph{ text-align: center;
-    padding-top: 2em;
-    font-size: large;
-    font-weight: bold;
-
+.border-primary {font-weight: bold;
+    text-align:center
 }
 .carousel-item{ object-fit: cover;
     object-position: center;
-    width: 100%;
-    object-fit: border-color: black;
-overflow: hidden;
+    max-width: 100vw;
+    object-fit: border-color black;
+    overflow: hidden;
+    height:40rem;
 }
 .products{display: inline-block;}
 
