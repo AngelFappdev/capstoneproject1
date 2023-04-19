@@ -1,3 +1,13 @@
+
+@media (min-width: 768px){
+.navbar-expand-md .navbar-nav {
+    justify-content:space-between;
+    width:100%;
+    }
+}
+
+
+
 .card-img-top{max-height:300px;
     min-height: 300px;
     object-fit: contain;
@@ -10,9 +20,11 @@ body{
 }
 h1{font-size: larger; font-display: auto; text-align: center;}
 
-.navbar-brand{ text-decoration: underline;
-    align-items: center; 
+.nav-item { margin:1em;
+    align-content: center;
+
 }
+
 .paragraph{ text-align: center;
     padding-top: 2em;
     font-size: large;
@@ -21,9 +33,10 @@ h1{font-size: larger; font-display: auto; text-align: center;}
 }
 .carousel-item{ object-fit: cover;
     object-position: center;
-    width: 50vh; 100%
+    width: 100%;
     object-fit: border-color: black;
 overflow: hidden;
 }
 .products{display: inline-block;}
 
+h6{text-align:center}
