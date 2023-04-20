@@ -17,6 +17,7 @@ text-align: center;}
 body{
     background:pink;
 }
+
 h1{font-size: larger; font-display: auto; text-align: center;}
 
 .nav-item { margin:1em;
@@ -32,7 +33,11 @@ h1{font-size: larger; font-display: auto; text-align: center;}
     max-height:300px;
     object-fit: border-color black;
     overflow: hidden;
-    height:40rem;
+}
+.carousel-item img{
+    min-height:50vh;
+    max-height: 50vh;
+    object-fit:cover;
 }
 .products{display: inline-block;}
 
