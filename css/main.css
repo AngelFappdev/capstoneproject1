@@ -6,15 +6,14 @@
     }
 }
 
-
-
-.card-img-top{max-height:300px;
-    min-height: 300px;
+.carousel-inner{max-height:600px;
+    min-height: 600px;
     object-fit: contain;
 
 }
 .login{font-size: medium;
 text-align: center;}
+
 body{
     background:pink;
 }
@@ -24,8 +23,8 @@ h1{font-size: larger; font-display: auto; text-align: center;}
     align-content: center;
 
 }
-.border-radius {font-weight: bold;
-    text-align:center;
+.paragraph {font-weight: bold;
+    text-align: justify;
 }
 .carousel-inner{ object-fit: cover;
     object-position: center;
@@ -36,6 +35,10 @@ h1{font-size: larger; font-display: auto; text-align: center;}
 }
 .products{display: inline-block;}
 
+.card-img-top{max-height:300px;
+    min-height: 300px;
+    object-fit: contain;}
+    
 h6{text-align:center}
 
 footer{
